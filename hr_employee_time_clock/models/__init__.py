@@ -33,6 +33,7 @@ from . import hr_timesheet_sheet_account
 # from . import hr_timesheet_sheet_config_settings
 from . import res_company
 from . import hr_attendance
+from . import hr_timesheet_notification
 
 from . import res_config_settings
 

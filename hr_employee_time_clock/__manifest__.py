@@ -39,6 +39,7 @@
     'installable': True,
     'data': [
         'data/hr_timesheet_sheet_data.xml',
+        'data/notification_data.xml',
 
         'views/hr_timesheet_sheet_views.xml',
 
@@ -64,6 +65,9 @@
         'views/res_config_settings_views.xml',
         'views/hr_employee_views.xml',
         'views/resource_calendar_view.xml',
+
+        #Notification
+        'views/email_template_notification.xml',
     ],
     'qweb': ['static/src/xml/timesheet.xml', ],
 }
